@@ -38,4 +38,6 @@ jobs:
         images: 
           alstreim14/conversao-temperatura:${{ github.run_number }}
         manifests: |
-          deployment.yaml
+          src/deployment.yaml
+          
+          
